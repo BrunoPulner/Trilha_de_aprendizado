@@ -1,0 +1,110 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: aqua;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+h1{
+    background-color: aquamarine;
+    width: 165px;
+    height: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border: 2px solid slateblue;
+    padding: 10px 10px 10px 10px;
+}
+p{
+    display: inline;
+    background-color: aliceblue;
+}
+span{
+    display: inline;
+    background-color:greenyellow;
+}
+.box1{
+    background-color: hotpink;
+    display: inline;
+    width: 10px;
+    height: 10px;
+    border-color: yellow;
+    border-style: solid;
+}
+.box2{
+    background-color: lightseagreen;
+    display:relative;
+    width: 365px;
+    height: 20px;
+    border-style: solid;
+    border-color: yellow;
+}
+.box3{
+    position: absolute;
+    background-color: blue;
+    border-color: yellow;
+    border-style: solid;
+    width: 500px;
+    height: 20px;
+}
+.box4{
+    position: fixed;
+    background-color: yellowgreen;
+    border-color: yellow;
+    border-style: solid;
+    width: 400px;
+    height: 50px;
+    top: 0px;
+    right: 0px;
+}
+.box5{
+    position:sticky;
+    background-color: teal;
+    width: 550px;
+    height: 20px;
+    bottom: 500px;
+    left: 250px;
+    right: 200px;
+}
+.layer1{
+    position: relative;
+    background-color: yellowgreen;
+    width: 70px;
+    height: 70px;
+    bottom: 0px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.layer2{
+    position: relative;
+    background-color: turquoise;
+    width: 70px;
+    height: 70px;
+    bottom: 20px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+h2{
+    display: relative;
+    background-color: royalblue;
+    border-color: sandybrown;
+    border-style: solid;
+   
+}
+
+
+    

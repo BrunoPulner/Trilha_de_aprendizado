@@ -1,0 +1,54 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient(to bottom, 		#7FFF00, #0B1726);
+    width: 80%;
+    margin:0 auto;
+}
+header{
+    font-family: sans-serif;
+    background-color: #161616;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.logo img{
+    width: 45%;
+    padding-top: 50px;
+}
+.navegacao{
+    overflow: hidden;
+}
+.navegacao a{
+    float: right;
+    display: block;
+    color: #FF8C00;
+    text-decoration: none;
+    text-align: right;
+    padding: 10px 10px;
+}
+.navegacao a:hover{
+    color:Gold;
+    background-color: indigo;
+}
+.principal{
+    margin: 15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #0B1726;
+}
+.principal h2{
+    color: #2E4159;
+}
+.rodape{
+    color: chartreuse;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width:800px){
+    .principal, .conteudo.central, .conteudo.lateral{
+        width: 100%;
+        padding: 0;
+        }
+    }

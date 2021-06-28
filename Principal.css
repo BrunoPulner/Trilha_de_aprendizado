@@ -1,0 +1,109 @@
+.quadrados {
+    text-align: center;
+}
+
+.quadrado {
+    display: inline-block;
+    background-color: gainsboro;
+    width: 360px;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+.quadrado a {    
+    font-size: 3em;
+    text-decoration: none;
+    animation: unicornio 5s infinite;
+}
+
+.quadrado p {
+    font-size: 1.5em;
+}
+
+
+
+@keyframes unicornio {
+    0% {
+        color: #333;
+    }
+    20% {
+        color:#06C;
+    }
+    40% {
+        color:#090;
+    }
+    60% {
+        color:#FC0;
+    }
+    80% {
+        color:#F00;
+    }
+    100% {
+        color:#606;
+    }
+}
+
+body {
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif';
+    background-image:url("imagem/bolhas_index.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    width: 80%;
+    margin:0 auto;
+}
+header{
+    
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.logo img{
+    width: 80px;
+    padding: 15px;
+    padding-top: 50px;
+    animation-play-state: running;
+}
+.navegacao{
+    overflow: hidden;
+}
+.navegacao a{
+    float: right;
+    display: block;
+    color: #FF8C00;
+    text-decoration: none;
+    text-align: right;
+    padding: 10px 10px;
+}
+.navegacao a:hover{
+    color:Gold;
+    background-color: #D61702;
+}
+.principal{
+    margin: 15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #0B1726;
+}
+.principal h2{
+    color: #2E4159;
+}
+.rodape{
+    color: blanchedalmond;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width:800px){
+    .principal, .conteudo.central, .conteudo.lateral{
+        width: 100%;
+        padding: 0;
+        }
+    }

@@ -1,0 +1,45 @@
+div{
+    background-color:chartreuse;
+    margin: 10px;
+}
+span{
+    font-weight: bolder;
+}
+h1#principal{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(161, 21, 226);
+    color: rgb(49, 201, 35);
+    border: darkorange;
+}
+div.agrupamento{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkslateblue;
+    border: 2px solid cornflowerblue;
+    margin: 20px;
+    padding: 10px;
+}
+.exemplo1{
+    font-family: fantasy;
+    color: darkcyan;
+    border: 2px solid aqua;
+    background-color: black;
+    margin: 10px;
+}
+.exemplo2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: cyan;
+    border: darkgreen;
+    background-color: darkslateblue;
+}
+div.personalizada{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkslateblue;
+    border: 2px solid cornflowerblue;
+    margin: 20px;
+    padding: 10px;
+}
+.personalizada:hover{
+    color:darkslategrey;
+    background-color: dodgerblue;
+}

@@ -1,1 +1,3 @@
-# Trilha_de_aprendizado
+# trilha-aprendizado
+
+## GitHub Pages: https://brunopulner.github.io/trilha-aprendizado/index.html
